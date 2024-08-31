@@ -4,8 +4,7 @@ on:
   schedule:
   ## Cron is a command line utility
   ## Below states that it runs everyday UTC 9:15
-  ##  - cron: '15 09 * * *'
-      - cron: '*/5 * * * *'
+    - cron: '15 09 * * *'
 
 jobs:
   build:
