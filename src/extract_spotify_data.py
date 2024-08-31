@@ -1,11 +1,15 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from datetime import datetime
+from dotenv import load_dotenv
 import csv
 import os
 
+load_dotenv()
+
 def extract_data(playlist_id, country):
 
+    # The csv file storing the top 50
     csv_file_path = './data/spotify-streaming-top-50-' + country + '.csv'
     today = datetime.today().strftime('%Y-%m-%d')
 
@@ -13,6 +17,7 @@ def extract_data(playlist_id, country):
     if os.path.exists(csv_file_path):
         with open(csv_file_path, 'r', encoding="utf-8") as file:
             reader = csv.DictReader(file)
+            # Checks the rows and if top 50 from today is already there, stops
             for row in reader:
                 if row['date'] == today:
                     date_processed = True
@@ -20,8 +25,10 @@ def extract_data(playlist_id, country):
                     break
 
     # Credentials to access Spotify API
-    client_id = os.environ["CLIENT_ID"]
-    client_secret = os.environ["CLIENT_SECRET"]
+    #client_id = os.environ["CLIENT_ID"]
+    #client_secret = os.environ["CLIENT_SECRET"]
+    client_id = os.getenv('SPOTIFY_CLIENT_ID')
+    client_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
     client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
