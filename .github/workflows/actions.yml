@@ -2,6 +2,8 @@ name: spotify-top-50-songs
 on:
 ##  workflow_dispatch:
   schedule:
+  ## Cron is a command line utility
+  ## Below states that it runs everyday UTC 9:15
     - cron: '15 09 * * *'
 
 jobs:
@@ -24,8 +26,8 @@ jobs:
           
       - name: execute py script # run main.py
         env:
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: python src/main.py
           
       - name: commit files
