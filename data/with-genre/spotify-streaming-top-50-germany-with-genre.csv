@@ -1,0 +1,51 @@
+date,position,song,artist,popularity,duration_ms,album_type,total_tracks,release_date,is_explicit,album_cover_url,genre_list
+2024-08-30,1,Bauch Beine Po,Shirin David,80,133932,single,1,2024-07-25,False,https://i.scdn.co/image/ab67616d0000b273ae421ab995402176dc5a3dc0,frauenrap & german hip hop & german pop
+2024-08-30,2,Lilien,AYLIVA,72,160983,album,15,2024-08-16,False,https://i.scdn.co/image/ab67616d0000b2738bdf6a4309ec137eeb64befc,german pop
+2024-08-30,3,Move,Adam Port & Stryv & Keinemusik & Orso & Malachiii,91,177598,single,1,2024-06-07,False,https://i.scdn.co/image/ab67616d0000b27317a013a00d0a33f3dd49974d,melodic house
+2024-08-30,4,Wunder,AYLIVA & Apache 207,67,176492,album,15,2024-08-16,True,https://i.scdn.co/image/ab67616d0000b2738bdf6a4309ec137eeb64befc,german hip hop & german pop
+2024-08-30,5,Big Dawgs,Hanumankind & Kalmi,92,190666,single,1,2024-07-09,True,https://i.scdn.co/image/ab67616d0000b273d9afe5c70c43cb2bd34605ea,desi hip hop & indian underground rap & malayalam hip hop
+2024-08-30,6,Panama,GReeeN,78,157135,album,8,2023-04-27,False,https://i.scdn.co/image/ab67616d0000b273ef496a180518f3ace76dd9ef,german hip hop
+2024-08-30,7,Black Friday (pretty like the sun),Lost Frequencies & Tom Odell,86,145599,single,1,2024-07-19,False,https://i.scdn.co/image/ab67616d0000b273a0fab1c9bdfc54357ddb89a6,belgian edm & chill pop & edm & pop dance & tropical house
+2024-08-30,8,BIRDS OF A FEATHER,Billie Eilish,100,210373,album,10,2024-05-17,False,https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62,art pop & pop
+2024-08-30,9,Out Of The Dark,RAF Camora,75,167847,single,3,2024-08-09,True,https://i.scdn.co/image/ab67616d0000b273cbeedd553be29e9c41223759,german hip hop
+2024-08-30,10,Espresso,Sabrina Carpenter,98,175459,single,1,2024-04-12,True,https://i.scdn.co/image/ab67616d0000b273659cd4673230913b3918e0d5,pop
+2024-08-30,11,eehhhyyy,Zartmann & Drumla & Dauner,75,135082,album,8,2024-06-21,False,https://i.scdn.co/image/ab67616d0000b27344fb82c80377e26b6e1f64b5,[]
+2024-08-30,12,Taste,Sabrina Carpenter,88,157279,album,12,2024-08-23,False,https://i.scdn.co/image/ab67616d0000b273208dc3669313f2c5114c612d,pop
+2024-08-30,13,VEMPA,FOURTY & Bausa,76,134528,single,1,2024-04-19,True,https://i.scdn.co/image/ab67616d0000b2736423f32068faad29d0b50e22,german hip hop & german r&b & german trap
+2024-08-30,14,Starboy,Luciano & Jazeek,76,170898,single,1,2024-07-18,True,https://i.scdn.co/image/ab67616d0000b273abcd7f5243af3b96ee4fa5a3,german drill & german hip hop
+2024-08-30,15,Mittelmeer,Pashanim,70,179106,album,14,2024-06-13,False,https://i.scdn.co/image/ab67616d0000b27333ff34130a6eeecb47d24d26,german alternative rap & german drill & german hip hop
+2024-08-30,16,Miami,Apache 207,75,184485,single,1,2024-08-01,False,https://i.scdn.co/image/ab67616d0000b273deef9c2aa565aecd7af238e1,german hip hop
+2024-08-30,17,Nein!,AYLIVA,66,194217,album,15,2024-08-16,False,https://i.scdn.co/image/ab67616d0000b2738bdf6a4309ec137eeb64befc,german pop
+2024-08-30,18,Stumblin' In,CYRIL,89,213363,single,1,2023-11-10,False,https://i.scdn.co/image/ab67616d0000b2739a903819d8a5d3c80c47734c,[]
+2024-08-30,19,sekundentakt,Montez & Kontra K,70,160719,single,5,2024-08-15,True,https://i.scdn.co/image/ab67616d0000b273329c9769df052ba37fc1cea7,german hip hop & german pop
+2024-08-30,20,Alibi (with Pabllo Vittar & Yseult),Sevdaliza & Pabllo Vittar & Yseult,92,161655,single,1,2024-06-28,False,https://i.scdn.co/image/ab67616d0000b2734ee35e37bc21fe929a4d3605,alternative r&b & dance pop & french pop & funk carioca & funk pop & persian electronic & pop lgbtq+ brasileira & pop nacional & r&b francais
+2024-08-30,21,I Adore You (feat. Daecolm),HUGEL & Topic & Arash & Daecolm,82,214000,single,1,2024-07-19,False,https://i.scdn.co/image/ab67616d0000b27305005dc483e9f8a73ccc6d3d,deep house & german dance & persian pop & pop dance & pop edm & uk dance
+2024-08-30,22,i like the way you kiss me,Artemas,80,142514,album,14,2024-07-11,False,https://i.scdn.co/image/ab67616d0000b2738fe69d8df304ff053693653e,[]
+2024-08-30,23,Stargazing,Myles Smith,92,172533,single,1,2024-05-10,False,https://i.scdn.co/image/ab67616d0000b27381b12e1a0584e8ea7ba2ae4a,singer-songwriter pop
+2024-08-30,24,Houdini,Eminem,83,227032,album,19,2024-07-12,True,https://i.scdn.co/image/ab67616d0000b2731633c43b5695735f7de36487,detroit hip hop & hip hop & rap
+2024-08-30,25,Belong Together,Mark Ambor,75,148317,album,12,2024-08-16,False,https://i.scdn.co/image/ab67616d0000b273da33127f62acdb0aca585e92,singer-songwriter pop
+2024-08-30,26,Gata Only,FloyyMenor & Cris Mj,78,222000,album,7,2024-08-09,True,https://i.scdn.co/image/ab67616d0000b273ea86b8fe5ceb9e50e43a1ff9,mambo chileno & reggaeton chileno & trap latino & urbano chileno & urbano latino
+2024-08-30,27,Unwritten,Natasha Bedingfield,88,259333,album,14,2004-08-30,False,https://i.scdn.co/image/ab67616d0000b273b337e1ca6629a53c66a3b0d4,dance pop & pop & post-teen pop
+2024-08-30,28,A Bar Song (Tipsy),Shaboozey,88,171291,album,12,2024-05-31,True,https://i.scdn.co/image/ab67616d0000b27360df033c8f8b17384387666a,modern country pop & pop rap
+2024-08-30,29,Austin (Boots Stop Workin'),Dasha,91,171782,album,8,2024-02-16,True,https://i.scdn.co/image/ab67616d0000b2734ccf88b66e04cfd247f287eb,[]
+2024-08-30,30,"ZEIT, DASS SICH WAS DREHT",$OHO BANI & Herbert Grönemeyer & Ericson,76,153974,single,1,2024-02-23,True,https://i.scdn.co/image/ab67616d0000b273822a12155c7808871858d7e0,german hip hop & german pop & liedermacher
+2024-08-30,31,Beautiful Things,Benson Boone,91,180304,album,15,2024-04-05,False,https://i.scdn.co/image/ab67616d0000b273cc04ff3e70e146ba9abacf40,singer-songwriter pop
+2024-08-30,32,KEHLANI,Jordan Adetunji,89,122360,single,3,2024-06-24,False,https://i.scdn.co/image/ab67616d0000b273f2cd132495d61b0da6a900d2,irish hip hop
+2024-08-30,33,Around The World,Niklas Dee & René Miller,71,140986,single,1,2024-08-02,False,https://i.scdn.co/image/ab67616d0000b273a740dce2b00dc650a60b78b9,hypertechno & slap house
+2024-08-30,34,"Good Luck, Babe!",Chappell Roan,97,218423,single,1,2024-04-05,False,https://i.scdn.co/image/ab67616d0000b27391b4bc7c88d91a42e0f3a8b7,indie pop & pov: indie
+2024-08-30,35,Beifahrer,AYLIVA,66,184413,album,15,2024-08-16,False,https://i.scdn.co/image/ab67616d0000b2738bdf6a4309ec137eeb64befc,german pop
+2024-08-30,36,Die With A Smile,Lady Gaga & Bruno Mars,94,251667,single,1,2024-08-16,False,https://i.scdn.co/image/ab67616d0000b27382ea2e9e1858aa012c57cd45,art pop & dance pop & pop
+2024-08-30,37,Wonderwall - Remastered,Oasis,79,258773,album,40,1995,False,https://i.scdn.co/image/ab67616d0000b2737a4c8c59851c88f6794c3cbf,beatlesque & britpop & madchester & permanent wave & rock
+2024-08-30,38,Too Sweet,Hozier,88,251424,album,20,2024-03-22,False,https://i.scdn.co/image/ab67616d0000b2733e1b212546dac35443735241,irish singer-songwriter & modern rock & pop & pov: indie
+2024-08-30,39,wie du manchmal fehlst,Zartmann & Ski Aggu & Dauner,70,131773,album,8,2024-06-21,False,https://i.scdn.co/image/ab67616d0000b27344fb82c80377e26b6e1f64b5,german hip hop
+2024-08-30,40,Bye Bye Bye - From Deadpool and Wolverine Soundtrack,*NSYNC,90,200400,album,12,2000-03-21,False,https://i.scdn.co/image/ab67616d0000b273a6cb8fab778e1efc406a5909,boy band & dance pop & pop
+2024-08-30,41,Thank You (Not So Bad),Dimitri Vegas & Like Mike & Tiësto & Dido & W&W & Dimitri Vegas & Like Mike,85,140000,single,1,2023-12-01,False,https://i.scdn.co/image/ab67616d0000b2730aa08f8923434aab06e43b37,belgian dance & belgian edm & big room & brostep & dance pop & dutch edm & dutch house & dutch trance & edm & electro house & europop & house & lilith & neo mellow & pop dance & pop rock & progressive electro house & slap house & trance
+2024-08-30,42,Forever Young,Alphaville,86,226706,album,10,1984,False,https://i.scdn.co/image/ab67616d0000b273b9c4979446c4d39bc08e9503,new romantic & new wave pop & synthpop
+2024-08-30,43,Milano,Amo,63,164771,single,6,2024-08-21,True,https://i.scdn.co/image/ab67616d0000b2739f05e1171fc7bcb50771f38d,german hip hop
+2024-08-30,44,Vois sur ton chemin - Techno Mix,BENNETT,83,178156,single,1,2023-08-04,False,https://i.scdn.co/image/ab67616d0000b2731b96e645016c4d431842aa93,hypertechno
+2024-08-30,45,Was wäre wenn du nicht wärst?,FANJI,72,167053,single,1,2024-07-19,False,https://i.scdn.co/image/ab67616d0000b2734ea4d395f5f8c693510a5d26,[]
+2024-08-30,46,Abenteuerland,FiNCH & SDP & Phil The Beat,71,179087,single,1,2024-06-20,False,https://i.scdn.co/image/ab67616d0000b273e0a400f4e15280690685c861,german pop & german reggae & slap house & tekk
+2024-08-30,47,BYE X3 (MIT JEREMIAS),Ski Aggu & JEREMIAS,67,130409,single,5,2024-08-15,False,https://i.scdn.co/image/ab67616d0000b273a42035941c8d08efe2c524a6,german hip hop & german pop
+2024-08-30,48,Pedro,Jaxomy & Agatino Romero & Raffaella Carrà,86,144846,single,1,2024-03-29,False,https://i.scdn.co/image/ab67616d0000b273df8680015ddf76e5c444849f,classic italian pop
+2024-08-30,49,Guess featuring Billie Eilish,Charli xcx & Billie Eilish,92,143330,single,1,2024-08-01,False,https://i.scdn.co/image/ab67616d0000b2738b8d8be49f9c4a44b0574144,art pop & candy pop & metropopolis & pop & uk pop
+2024-08-30,50,Ya Habibi,Samra,64,144813,single,1,2024-08-23,False,https://i.scdn.co/image/ab67616d0000b27303ee109802a98b6cf839426d,german hip hop
