@@ -16,7 +16,7 @@ load_dotenv()
 def extract_data(playlist_id, country):
 
     # The csv file storing the top 50
-    csv_file_path = './data/test/spotify-streaming-top-50-mod-' + country + '.csv'
+    csv_file_path = './data/mod/spotify-streaming-top-50-mod-' + country + '.csv'
     today = datetime.today().strftime('%Y-%m-%d')
 
     ## Boolean to check if today's top 50 has been recorded or not
@@ -53,7 +53,7 @@ def extract_data(playlist_id, country):
 
         # Creating list of lists and including the header of the final CSV file
         spotify_data = []
-        head = ['date', 'position', 'song', 'artist', 'popularity', 'duration_ms', 'album_type', 'total_tracks', 'genre_list', 'release_date', 'is_explicit', 'album_cover_url', 'uri']
+        head = ['date', 'position', 'song', 'artist', 'popularity', 'duration_ms', 'album_type', 'genre_list', 'release_date', 'is_explicit', 'album_cover_url', 'uri']
         ## spotify_data.append(head)
 
         # Getting the data obtained from Spotify API into the list of lists
@@ -74,7 +74,6 @@ def extract_data(playlist_id, country):
             popularity = track['popularity']
             duration_ms = track['duration_ms']
             album_type = track['album']['album_type']
-            total_tracks = track['album']['total_tracks']
             release_date = track['album']['release_date']
             is_explicit = track['explicit']
             album_cover_url = track['album']['images'][0]['url']
@@ -85,7 +84,7 @@ def extract_data(playlist_id, country):
             else: # For debug purpose
                 genre_list = None
 
-            spotify_data.append([today, rank+1, song, artist, popularity, duration_ms, album_type, total_tracks, genre_list, release_date, is_explicit, album_cover_url, uri])
+            spotify_data.append([today, rank+1, song, artist, popularity, duration_ms, album_type, genre_list, release_date, is_explicit, album_cover_url, uri])
 
         ## Pass data into a csv file
         if not os.path.exists(csv_file_path):
