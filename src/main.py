@@ -12,8 +12,8 @@ import extract_spotify_data as esd
 # ## Top 50: France - Data
 # esd.extract_data('37i9dQZEVXbIPWwFssbupI', 'france')
 
-# ## Top 50: Japan - Data
-# esd.extract_data('37i9dQZEVXbKXQ4mDTEBXq', 'japan')
+## Top 50: Japan - Data
+esd.extract_data('37i9dQZEVXbKXQ4mDTEBXq', 'japan')
 
 # ## Top 50: South Korea - Data
 # esd.extract_data('37i9dQZEVXbNxXF4SkHj9F', 'south-korea')
@@ -25,7 +25,7 @@ import extract_spotify_data as esd
 # esd.extract_data('37i9dQZEVXbJiZcmkrIHGU', 'germany')
 
 ## Top 50: India - Data
-esd.extract_data('37i9dQZEVXbLZ52XmnySJg', 'india')
+#esd.extract_data('37i9dQZEVXbLZ52XmnySJg', 'india')
 
 # ## Top 50: Brazil - Data
 # esd.extract_data('37i9dQZEVXbMXbN3EUUhlg', 'brazil')

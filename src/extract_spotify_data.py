@@ -10,10 +10,13 @@ load_dotenv()
 
 # Confirmed run!
 # The modification would be to get the genre infor from the artist.
+# Oh hm should I get the track entries as well or is that redundant.
+# It currently doesn't include the track id, making it hard to use for other analyzes.
+# Want to add identifier so we can use the data for other analyzes in the future.
 def extract_data(playlist_id, country):
 
     # The csv file storing the top 50
-    csv_file_path = './data/with-genre/spotify-streaming-top-50-' + country + '-with-genre.csv'
+    csv_file_path = './data/test/spotify-streaming-top-50-mod-' + country + '.csv'
     today = datetime.today().strftime('%Y-%m-%d')
 
     ## Boolean to check if today's top 50 has been recorded or not
@@ -50,7 +53,7 @@ def extract_data(playlist_id, country):
 
         # Creating list of lists and including the header of the final CSV file
         spotify_data = []
-        head = ['date', 'position', 'song', 'artist', 'popularity', 'duration_ms', 'album_type', 'total_tracks', 'release_date', 'is_explicit', 'album_cover_url', 'genre_list']
+        head = ['date', 'position', 'song', 'artist', 'popularity', 'duration_ms', 'album_type', 'total_tracks', 'genre_list', 'release_date', 'is_explicit', 'album_cover_url', 'uri']
         ## spotify_data.append(head)
 
         # Getting the data obtained from Spotify API into the list of lists
@@ -80,9 +83,9 @@ def extract_data(playlist_id, country):
             elif len(genres) == 1:
                 genre_list = genres[0]
             else: # For debug purpose
-                genre_list = []
+                genre_list = None
 
-            spotify_data.append([today, rank+1, song, artist, popularity, duration_ms, album_type, total_tracks, release_date, is_explicit, album_cover_url, genre_list])
+            spotify_data.append([today, rank+1, song, artist, popularity, duration_ms, album_type, total_tracks, genre_list, release_date, is_explicit, album_cover_url, uri])
 
         ## Pass data into a csv file
         if not os.path.exists(csv_file_path):
