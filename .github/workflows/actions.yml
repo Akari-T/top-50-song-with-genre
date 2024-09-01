@@ -3,8 +3,8 @@ on:
 ##  workflow_dispatch:
   schedule:
   ## Cron is a command line utility
-  ## Below states that it runs everyday UTC 9:15
-    - cron: '15 09 * * *'
+  ## Below states that it runs everyday UTC 04:42
+    - cron: '42 04 * * *'
 
 jobs:
   build:
@@ -12,12 +12,12 @@ jobs:
     steps:
 
       - name: checkout repo content
-        uses: actions/checkout@v3 # checkout the repository content to github runner
+        uses: actions/checkout@v4 # checkout the repository content to github runner
 
       - name: setup python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9' # install the python version needed
+          python-version: '3.11' # install the python version needed
           
       - name: install python packages
         run: |
@@ -38,7 +38,7 @@ jobs:
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
