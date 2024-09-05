@@ -15,3 +15,5 @@ While most of the code comes from the original project, I have made the followin
   - The *uri* was added to make the songs accessible from the Spotify API for future analysis. 
 - Updated GitHub Action versions.
 - Scheduled the script to run at 04:42 UTC (21:42 PT) through GitHub Workflow (still confirming that it runs correctly). 
+
+The data is written into the files under data/mod. 
